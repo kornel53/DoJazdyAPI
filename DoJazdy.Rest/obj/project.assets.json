@@ -8,7 +8,7 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Korneliusz\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "C:\\Projects\\dotnet\\DoJazdyAPI\\DoJazdy.Rest\\DoJazdy.Rest.csproj",
       "projectName": "DoJazdy.Rest",
       "projectPath": "C:\\Projects\\dotnet\\DoJazdyAPI\\DoJazdy.Rest\\DoJazdy.Rest.csproj",
-      "packagesPath": "C:\\Users\\Korneliusz\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\dotnet\\DoJazdyAPI\\DoJazdy.Rest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Korneliusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

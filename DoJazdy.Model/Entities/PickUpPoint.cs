@@ -2,7 +2,8 @@
 
 public class PickUpPoint
 {
-    public int PickUpPointId { get; set; }
+    public int Id { get; set; }
+    public string Name { get; set; }
     public string XMap { get; set; }
     public string YMap { get; set; }
 }
