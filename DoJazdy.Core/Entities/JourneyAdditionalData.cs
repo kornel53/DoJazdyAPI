@@ -1,4 +1,4 @@
-﻿namespace DoJazdy.Model.Entities;
+﻿namespace DoJazdy.Core.Entities;
 
 public class JourneyAdditionalData
 {
