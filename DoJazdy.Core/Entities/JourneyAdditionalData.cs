@@ -2,7 +2,7 @@
 
 public class JourneyAdditionalData
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public double CO2 { get; set; }
     public double SOx { get; set; }
     public double CO { get; set; }

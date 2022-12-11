@@ -2,7 +2,7 @@
 
 public class Journey
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public DateOnly DateOnly { get; set; }
     public TimeOnly TimeOnly { get; set; }
     public double Distance { get; set; }
@@ -12,7 +12,7 @@ public class Journey
     public string EndPoint { get; set; }
     
     public IEnumerable<User> Users { get; set; }
-    public int CarId { get; set; }
+    public Guid CarId { get; set; }
     public Car Car { get; set; }
     
     public JourneyAdditionalData JourneyAdditionalData { get; set; }

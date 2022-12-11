@@ -2,17 +2,19 @@
 
 public class UserPersonalData
 {
-	public int Id { get; set; }
+	public Guid Id { get; set; }
 	public string Name { get; set; }
 	public string Surname { get; set; }
 	
-	public int UserId { get; set; }
+	public Guid UserId { get; set; }
 	public User User { get; set; }
 
-	public UserPersonalData(int id, string name, string surname)
+	public UserPersonalData(Guid id, string name, string surname, User user)
 	{
 		Id = id;
 		Name = name;
 		Surname = surname;
+		User = user;
+		UserId = user.Id;
 	}
 }

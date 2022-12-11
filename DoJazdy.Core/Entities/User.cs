@@ -2,23 +2,23 @@
 
 public class User
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Login { get; set; }
     public string Password { get; set; }
     public string Email { get; set; }
     
     public UserPersonalData UserPersonalData { get; set; }
-    public HashSet<EcoAchievement> EcoAchievements { get; set; }
+    public HashSet<EcoAchievement> EcoAchievements { get; set; } = new();
     public HashSet<Car> Cars { get; set; } = new();
     public HashSet<Journey> Journeys { get; set; } = new();
 
-    public User(int id, string login, string password, string email, int userPersonalDataId, string name, string surname)
+    public User(Guid id, string login, string password, string email, Guid userPersonalDataId, string name, string surname)
     {
         Id = id;
         Login = login;
         Password = password;
         Email = email;
-        UserPersonalData = new UserPersonalData(userPersonalDataId, name, surname);
+        UserPersonalData = new UserPersonalData(userPersonalDataId, name, surname, this);
     }
 
     public void AddCar(Car car)
@@ -26,7 +26,7 @@ public class User
         Cars.Add(car);
     }
 
-    public void RemoveCar(int id)
+    public void RemoveCar(Guid id)
     {
         Cars.RemoveWhere(x => x.Id == id);
     }
@@ -36,7 +36,7 @@ public class User
         Journeys.Add(journey);
     }
 
-    public void RemoveJourney(int id)
+    public void RemoveJourney(Guid id)
     {
         Journeys.RemoveWhere(x => x.Id == id);
     }
