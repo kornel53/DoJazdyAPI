@@ -2,7 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Rest", "DoJazdy.Rest\DoJazdy.Rest.csproj", "{9A6BE458-5E13-48D2-9BD8-BB4463C945E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Model", "DoJazdy.Model\DoJazdy.Model.csproj", "{C8242B04-A0B3-4F89-B729-529EA594918C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Core", "DoJazdy.Core\DoJazdy.Core.csproj", "{C8242B04-A0B3-4F89-B729-529EA594918C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Application", "DoJazdy.Application\DoJazdy.Application.csproj", "{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Infrastructure", "DoJazdy.Infrastructure\DoJazdy.Infrastructure.csproj", "{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{C8242B04-A0B3-4F89-B729-529EA594918C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8242B04-A0B3-4F89-B729-529EA594918C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8242B04-A0B3-4F89-B729-529EA594918C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
