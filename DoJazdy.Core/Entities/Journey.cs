@@ -10,8 +10,11 @@ public class Journey
     public int MaxPassengers { get; set; }
     public string StartPoint { get; set; }
     public string EndPoint { get; set; }
+
+    public Guid UserId;
+    public User User;
     
-    public IEnumerable<User> Users { get; set; }
+    public IEnumerable<User>? Users { get; set; }
     public Guid CarId { get; set; }
     public Car Car { get; set; }
     

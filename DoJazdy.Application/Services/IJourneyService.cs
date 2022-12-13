@@ -1,9 +1,11 @@
-﻿namespace DoJazdy.Application.Services;
+﻿using DoJazdy.Core.Entities;
+
+namespace DoJazdy.Application.Services;
 
 public interface IJourneyService
 {
-	Task CreateJourney(JourneyDTO dto);
-	Task AddPickUpPoint(JourneyDTO journeyDto, JourneyPickUpPointDTO journeyPickUpPointDto);
-	Task AddAdditionalData(JourneyDTO journeyDto, JourneyAdditionalDataDTO journeyAdditionalDataDto);
-	Task DeleteJourney(Guid id);
+	Task CreateJourney(Guid userId, Journey journey);
+	Task AddPickUpPoint(Guid journeyId, JourneyPickUpPoint journeyPickUpPoint);
+	Task AddAdditionalData(Guid journeyId, JourneyAdditionalData journeyAdditionalData);
+	Task DeleteJourney(Guid journeyId);
 }

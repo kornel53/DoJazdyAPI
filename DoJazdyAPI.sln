@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Core", "DoJazdy.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Application", "DoJazdy.Application\DoJazdy.Application.csproj", "{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoJazdy.Infrastructure", "DoJazdy.Infrastructure\DoJazdy.Infrastructure.csproj", "{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{543E54A1-8EBD-4D3B-8BED-3FD330FEA939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDF2D22-FBE1-40F4-8FF4-F5B2287106D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

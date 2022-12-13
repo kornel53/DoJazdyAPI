@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DoJazdy.Core\DoJazdy.Core.csproj" />
+    </ItemGroup>
+
 </Project>

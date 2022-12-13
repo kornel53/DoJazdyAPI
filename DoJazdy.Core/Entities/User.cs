@@ -7,10 +7,10 @@ public class User
     public string Password { get; set; }
     public string Email { get; set; }
     
-    public UserPersonalData UserPersonalData { get; set; }
-    public HashSet<EcoAchievement> EcoAchievements { get; set; } = new();
-    public HashSet<Car> Cars { get; set; } = new();
-    public HashSet<Journey> Journeys { get; set; } = new();
+    public UserPersonalData? UserPersonalData { get; set; }
+    public HashSet<EcoAchievement>? EcoAchievements { get; set; } = new();
+    public HashSet<Car>? Cars { get; set; } = new();
+    public HashSet<Journey>? Journeys { get; set; } = new();
 
     public User(Guid id, string login, string password, string email, Guid userPersonalDataId, string name, string surname)
     {
